@@ -1,13 +1,16 @@
 :root{
     --primary-color:#289BDE;
     --text-color:#777777;
+    --title-back-color:#1D1D1D;
+    --footer-bg-color:#1E1E1E;
 }
 body{
     font-family: 'Poppins', sans-serif;
     color:var(--text-color);
+    line-height: 1.9;
 }
 h1,h2,h3,h4{
-    color:#1D1D1D;
+    color:var(--title-back-color)
 }
 .navbar-brand{
     font-size:40px;
@@ -59,6 +62,12 @@ h1,h2,h3,h4{
 /* Company Logo secton */
 .company_logo .section_title{
     max-width:100%
+}
+.footer_section{
+    background-color: var(--footer-bg-color);
+}
+.footer_section a:hover{
+    opacity:0.8;
 }
 @media only screen and (max-width:767px){
     .carousel-item > img{
