@@ -34,7 +34,7 @@ h1,h2,h3,h4{
     max-width:190px;
 }
 .section_title {
-    max-width: 385px;
+    max-width: 463px;
 }
 .section_slogan {
     max-width: 595px;
@@ -51,6 +51,10 @@ h1,h2,h3,h4{
 }
 .course_card h3{
     font-size:25px;
+}
+/* FAQ Section */
+.faq_section .accordion{
+    max-width: 872px;
 }
 @media only screen and (max-width:767px){
     .carousel-item > img{
