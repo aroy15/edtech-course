@@ -9,6 +9,7 @@ body{
     color:var(--text-color);
     line-height: 1.9;
 }
+/* Common CSS */
 h1,h2,h3,h4{
     color:var(--title-back-color)
 }
@@ -30,39 +31,39 @@ h1,h2,h3,h4{
 .common-btn-hover:hover{
     color: var(--primary-color);
 }
-.carousel-caption{
-    bottom:auto;
-}
-.section_subject_area{
-    max-width:190px;
-}
 .section_title {
     max-width: 463px;
 }
 .section_slogan {
-    max-width: 595px;
+    max-width: 650px;
 }
-.course_card{
+/* Hero Section */
+.hero_section .carousel-caption{
+    bottom:auto;
+}
+/* Course secton */
+.courses_section .course_card{
     transition:0.3s;
 }
-.course_card:hover{
+.courses_section .course_card:hover{
     box-shadow: 3px 5px 10px -3px rgba(0, 0, 0, 0.3);
 }
-.course_card img{
+.courses_section .course_card img{
     width:200px;
     object-fit: cover;
 }
-.course_card h3{
+.courses_section .course_card h3{
     font-size:25px;
 }
 /* FAQ Section */
 .faq_section .accordion{
     max-width: 872px;
 }
-/* Company Logo secton */
-.company_logo .section_title{
-    max-width:100%
+.faq_section .accordion-button{
+    font-size: 20px;
+    font-weight: 600;
 }
+/* Footer Section */
 .footer_section{
     background-color: var(--footer-bg-color);
 }
@@ -79,10 +80,10 @@ h1,h2,h3,h4{
     .display-3 {
         font-size: calc(0.85rem + 2vw);
     }
-    .course_card img{
+    .courses_section .course_card img{
         width:100%
     }
-    .course_card h3{
+    .courses_section .course_card h3{
         font-size:16px;
     }
 }
