@@ -1,17 +1,31 @@
+:root{
+    --primary-color:#289BDE;
+    --text-color:#777777;
+}
 body{
     font-family: 'Poppins', sans-serif;
+    color:var(--text-color);
+}
+h1,h2,h3,h4{
+    color:#1D1D1D;
 }
 .navbar-brand{
     font-size:40px;
     font-weight: 600;
 }
+.bg-skyblue{
+    background-color: var(--primary-color);
+}
+.text-skyblue{
+    color:#289BDE;
+}
 .common-btn{
     color:#ffffff;
-    background-color: #289BDE;
+    background-color: var(--primary-color);
     padding:13px 25px;
 }
 .common-btn-hover:hover{
-    color:#289BDE;
+    color: var(--primary-color);
 }
 .carousel-caption{
     bottom:auto;
@@ -23,7 +37,7 @@ body{
     max-width: 385px;
 }
 .section_slogan {
-    max-width: 620px;
+    max-width: 595px;
 }
 .course_card{
     transition:0.3s;
@@ -34,6 +48,9 @@ body{
 .course_card img{
     width:200px;
     object-fit: cover;
+}
+.course_card h3{
+    font-size:25px;
 }
 @media only screen and (max-width:767px){
     .carousel-item > img{
@@ -47,5 +64,8 @@ body{
     }
     .course_card img{
         width:100%
+    }
+    .course_card h3{
+        font-size:16px;
     }
 }

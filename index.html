@@ -60,7 +60,7 @@
               <div class="carousel-item bg-dark active">
                 <img src="./images/cover/cover-1.png" class="d-block w-100 opacity-25" alt="...">
                 <div class="carousel-caption px-xl-5 top-50 translate-middle-y">
-                  <h1 class="display-3 fw-semibold">Get Started Digital Learning</h1>
+                  <h1 class="display-3 text-light fw-semibold">Get Started Digital Learning</h1>
                   <p class="px-xl-5 my-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                   <a href="#" class="btn common-btn fw-semibold">Get Started</a>
                 </div>
@@ -68,7 +68,7 @@
               <div class="carousel-item bg-dark">
                 <img src="./images/cover/cover-2.jpg" class="d-block w-100 opacity-25" alt="...">
                 <div class="carousel-caption px-xl-5 top-50 translate-middle-y">
-                  <h1 class="display-3 fw-semibold">Get Started Digital Learning</h1>
+                  <h1 class="display-3 text-light fw-semibold">Get Started Digital Learning</h1>
                   <p class="px-xl-5 my-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                   <a href="#" class="btn common-btn fw-semibold">Get Started</a>
                 </div>
@@ -76,7 +76,7 @@
               <div class="carousel-item bg-dark">
                 <img src="./images/cover/cover-3.jpg" class="d-block w-100 opacity-25" alt="...">
                 <div class="carousel-caption px-xl-5 top-50 translate-middle-y">
-                  <h1 class="display-3 fw-semibold">Get Started Digital Learning</h1>
+                  <h1 class="display-3 text-light fw-semibold">Get Started Digital Learning</h1>
                   <p class="px-xl-5 my-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                   <a href="#" class="btn common-btn fw-semibold">Get Started</a>
                 </div>
@@ -108,7 +108,7 @@
                 <img src="./images/course/course-1.png" alt="">
               </div>
               <div class="p-4 align-self-center">
-                <h3>Fundamental Of UI/UX Design</h3>
+                <h3 class="fw-semibold mb-3">Fundamental Of UI/UX Design</h3>
                 <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                 <span class="text-primary">Price : 20$</span>
               </div>
@@ -120,7 +120,7 @@
                 <img src="./images/course/course-2.png" alt="">
               </div>
               <div class="p-4 align-self-center">
-                <h3>Javascript Basic to advanced</h3>
+                <h3 class="fw-semibold mb-3">Javascript Basic to advanced</h3>
                 <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                 <span class="text-primary">Price : 20$</span>
               </div>
@@ -132,7 +132,7 @@
                 <img src="./images/course/course-3.png" alt="">
               </div>
               <div class="p-4 align-self-center">
-                <h3>Fullstack Web Development</h3>
+                <h3 class="fw-semibold mb-3">Fullstack Web Development</h3>
                 <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                 <span class="text-primary">Price : 20$</span>
               </div>
@@ -144,7 +144,7 @@
                 <img src="./images/course/course-4.png" alt="">
               </div>
               <div class="p-4 align-self-center">
-                <h3>Digital Marketing</h3>
+                <h3 class="fw-semibold mb-3">Digital Marketing</h3>
                 <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                 <span class="text-primary">Price : 20$</span>
               </div>
@@ -156,7 +156,7 @@
                 <img src="./images/course/course-5.png" alt="">
               </div>
               <div class="p-4 align-self-center">
-                <h3>Photography Basic Rules</h3>
+                <h3 class="fw-semibold mb-3">Photography Basic Rules</h3>
                 <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                 <span class="text-primary">Price : 20$</span>
               </div>
@@ -168,7 +168,7 @@
                 <img src="./images/course/course-6.png" alt="">
               </div>
               <div class="p-4 align-self-center">
-                <h3>Motion Graphics</h3>
+                <h3 class="fw-semibold mb-3">Motion Graphics</h3>
                 <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                 <span class="text-primary">Price : 20$</span>
               </div>
@@ -181,6 +181,57 @@
       </div>
     </section>
     <!-- /Courses Section -->
+    <!-- Ready to Join Section -->
+    <section class="ready_to_join_section py-5">
+      <div class="container-lg">
+        <div class="p-5 bg-skyblue text-light d-flex gap-4 align-items-center justify-content-between rounded left_section">
+          <div>
+            <h2 class="text-light section_title mb-4">Ready to join?</h2>
+            <p class="section_slogan">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+          <div>
+            <!-- Button trigger modal -->
+            <button class="btn text-primary bg-light" data-bs-toggle="modal" data-bs-target="#registerModal">Register Now</button>
+            <!-- Modal -->
+            <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content  text-dark ">
+                  <div class="modal-header">
+                    <h5 class="modal-titletext-center" id="registerModalLabel">Regsitration Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="fullName" class="col-form-label">Full Name:</label>
+                        <input type="text" class="form-control" id="fullName">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Email" class="col-form-label">Email:</label>
+                        <input type="Email" class="form-control" id="Email">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Phone Number" class="col-form-label">Phone Number:</label>
+                        <input type="tel" class="form-control" id="Phone Number">
+                      </div>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="submit" class="btn common-btn" data-bs-dismiss="modal">Submit The Form</button>
+                        <button type="reset" class="btn common-btn px-4 btn-danger">Rest</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ready to Join Section -->
     <!-- Bootstrap Framework - JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
