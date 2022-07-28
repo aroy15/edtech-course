@@ -56,6 +56,10 @@ h1,h2,h3,h4{
 .faq_section .accordion{
     max-width: 872px;
 }
+/* Company Logo secton */
+.company_logo .section_title{
+    max-width:100%
+}
 @media only screen and (max-width:767px){
     .carousel-item > img{
         min-height:400px;
