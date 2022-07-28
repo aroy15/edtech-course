@@ -16,9 +16,25 @@ body{
 .carousel-caption{
     bottom:auto;
 }
-/* h1{
-    font-size: 65px;
-} */
+.section_subject_area{
+    max-width:190px;
+}
+.section_title {
+    max-width: 385px;
+}
+.section_slogan {
+    max-width: 620px;
+}
+.course_card{
+    transition:0.3s;
+}
+.course_card:hover{
+    box-shadow: 3px 5px 10px -3px rgba(0, 0, 0, 0.3);
+}
+.course_card img{
+    width:200px;
+    object-fit: cover;
+}
 @media only screen and (max-width:767px){
     .carousel-item > img{
         min-height:400px;
@@ -28,5 +44,8 @@ body{
 @media only screen and (max-width:575px){
     .display-3 {
         font-size: calc(0.85rem + 2vw);
+    }
+    .course_card img{
+        width:100%
     }
 }
