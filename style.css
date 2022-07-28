@@ -1,3 +1,32 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.navbar-brand{
+    font-size:40px;
+    font-weight: 600;
+}
+.common-btn{
+    color:#ffffff;
+    background-color: #289BDE;
+    padding:13px 25px;
+}
+.common-btn-hover:hover{
+    color:#289BDE;
+}
+.carousel-caption{
+    bottom:auto;
+}
+/* h1{
+    font-size: 65px;
+} */
+@media only screen and (max-width:767px){
+    .carousel-item > img{
+        min-height:400px;
+        object-fit:cover;
+    } 
+}
+@media only screen and (max-width:575px){
+    .display-3 {
+        font-size: calc(0.85rem + 2vw);
+    }
+}
